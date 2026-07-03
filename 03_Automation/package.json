@@ -1,0 +1,24 @@
+{
+  "name": "tichi-automation",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automated tests for Tichi Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "show-report": "playwright show-report ../04_ExecutionReport",
+    "install-browsers": "playwright install"
+  },
+  "keywords": ["playwright", "typescript", "automation", "tichi"],
+  "author": "Gowtham C",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^20.17.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
+

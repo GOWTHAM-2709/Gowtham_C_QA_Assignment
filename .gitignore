@@ -1,0 +1,33 @@
+# ── Playwright / Node ────────────────────────────────────────────────────────
+node_modules/
+playwright-report/
+test-results/
+.playwright/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Python helper scripts (generated during assignment; not submission) ────────
+generate_defect_report.py
+inspect_excel.py
+update_testcases.py
+verify_excel.py
+
+# ── Temp / OS ────────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+
+# ── Last-run tracking ────────────────────────────────────────────────────────
+05_Screenshots/.last-run.json
+03_Automation/package-lock.json
